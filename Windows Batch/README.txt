@@ -12,3 +12,14 @@ ABOUT:
 	
 PREQUISITES:
 	On a Windows computer, run `rename_files.bat` in the folder where you want to change the file names. In some cases Admin permission might be required.
+	
+
+NOTE:
+	To make tools such as this more useful, I personally reccommend editing the registry (specifically HKEY_CLASSES_ROOT) and adding the script to your shell.
+	It involves adding a command such as:	
+		cmd.exe /s /k "pushd "%V" && "C:\Users\YourUserName\YourPathToTheScript>\rename_files.bat""
+
+	This will allow you to right click anywhere on your computer and simply select (for example) "Filenames Renamer" and it will run the script in the current folder 
+	as if the .bat file was there.
+	It's simple to do, but editing the registry is always risky because it's easy to fuck up some system-level stuff, 
+	So if you do decide to add it to shell, make sure to first save a backup of the registry and to follow a good guide that explains how to do it step-by-step.
