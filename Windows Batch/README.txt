@@ -21,5 +21,5 @@ NOTE:
 
 	This will allow you to right click anywhere on your computer and simply select (for example) "Filenames Renamer" and it will run the script in the current folder 
 	as if the .bat file was there.
-	It's simple to do, but editing the registry is always risky because it's easy to fuck up some system-level stuff, 
+	It's simple to do, but editing the registry is always risky because it's easy to screw up some system-level stuff, 
 	So if you do decide to add it to shell, make sure to first save a backup of the registry and to follow a good guide that explains how to do it step-by-step.
